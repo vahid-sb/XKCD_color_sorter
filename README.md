@@ -1,8 +1,8 @@
 # XKCD Color Sorter
 
-This project visualizes and organizes the [XKCD color survey](https://blog.xkcd.com/2010/05/03/color-survey-results/), which includes over 900 uniquely named colors crowdsourced from hundreds of thousands of users.
+This project visualizes and organizes the [XKCD color survey](https://blog.xkcd.com/2010/05/03/color-survey-results/), which includes 949 uniquely named colors crowdsourced from hundreds of thousands of users.
 
-The goal is to help designers, artists, and developers select perceptually balanced and harmonious color palettes. We do this by sorting the XKCD colors based on **combinations of HSV (Hue, Saturation, Value)** components — which better align with human perception than RGB.
+The goal is to help designers, artists, and developers select perceptually balanced and harmonious color palettes. We do this by sorting the XKCD colors based on **combinations of HSV (Hue, Saturation, Value)** components, which better align with human perception than RGB.
 
 ## 🔍 Why This Matters
 
@@ -27,13 +27,13 @@ In visual design, colors with the same saturation and brightness but different h
 
 ## 📄 Output Examples
 
-- `all_xkcd_colors_sorted_by_Hue_within_Saturation_and_Value.pdf`
-- `all_xkcd_colors_sorted_by_Saturation_within_Hue_and_Value.pdf`
-- `all_xkcd_colors_sorted_by_Value_within_Hue_and_Saturation.pdf`
+- 📘 [`all_xkcd_colors_sorted_by_Hue_within_Saturation_and_Value.pdf`](all_xkcd_colors_sorted_by_Hue_within_Saturation_and_Value.pdf)
+- 📗 [`all_xkcd_colors_sorted_by_Saturation_within_Hue_and_Value.pdf`](all_xkcd_colors_sorted_by_Saturation_within_Hue_and_Value.pdf)
+- 📕 [`all_xkcd_colors_sorted_by_Value_within_Hue_and_Saturation.pdf`](all_xkcd_colors_sorted_by_Value_within_Hue_and_Saturation.pdf)
 
 Each color entry includes:
 - A color swatch
-- Name (truncated if too long)
+- Name 
 - HSV values
 
 ---
@@ -44,15 +44,15 @@ These plots illustrate how varying **one HSV component** while keeping the other
 
 ### 1. Varying Hue (S=0.9, V=0.6)
 Hue spans yellow → green → cyan  
-![Varying Hue](hsv_line_plots/varying_hue.png)
+![Varying Hue](varying_hue.png)
 
 ### 2. Varying Saturation (H=0.0, V=0.9)
 Saturation fades from grayish to vivid red  
-![Varying Saturation](hsv_line_plots/varying_saturation.png)
+![Varying Saturation](varying_saturation.png)
 
 ### 3. Varying Value (H=0.6, S=0.8)
 Value shifts from dark to bright purple  
-![Varying Value](hsv_line_plots/varying_value.png)
+![Varying Value](varying_value.png)
 
 These figures are especially useful in data visualization and interface design to avoid unintentional emphasis.
 
